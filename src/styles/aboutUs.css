@@ -1,0 +1,21 @@
+#about-us{
+    padding: 2rem 5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#about-us h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+#about-us p{
+    color: rgb(78, 77, 77);
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:810px){
+    #about-us img{
+        width: 70%;
+    }
+}

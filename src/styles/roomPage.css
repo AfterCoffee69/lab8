@@ -1,0 +1,27 @@
+.roomPage-container{
+    margin: 3rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.roomPage-title {
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1070px){
+    .roomPage-container{
+        margin: 3rem 4rem;
+    }
+}
+@media screen and (max-width:810px){
+    .roomPage-container{
+        margin: 3rem 2rem;
+    }
+}

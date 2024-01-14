@@ -1,0 +1,16 @@
+.footer{
+    margin: 0 auto;
+    bottom: 0;
+    padding: 1.5rem 2rem;
+    background-color: rgb(99, 59, 128);
+    color:rgba(13, 14, 86, 0.897);
+}
+
+.footer div h3{
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+}

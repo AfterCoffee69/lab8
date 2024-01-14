@@ -1,0 +1,46 @@
+.roomItem-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: rgba(205,223,214,1);
+    border-radius: 8px;
+    width: 70%;
+}
+.roomItem_container-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--header-text-color);
+}
+.card{
+    padding: 0 0 .5rem ;
+}
+.roomItem-card_header{
+    padding: .8rem 1.5rem;
+    color: white;
+    background-color: #2e0058;
+    border-radius: 8px 8px 0 0 ;
+}
+.card-text{
+    padding: 0 1rem;
+}
+.roomItem-hr{
+    margin-top: 0;
+}
+.roomItem-popup_container{
+    display: grid;
+    margin: 0 1rem;
+}
+@media screen and (max-width:1070px){
+    .roomItem_container-title{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:700px){
+    .roomItem-container{
+        display: block;
+    }
+    .roomItem_container-title{
+        margin-bottom: .5rem;
+    }
+}

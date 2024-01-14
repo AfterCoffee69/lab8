@@ -1,0 +1,19 @@
+.popup-btn{
+    padding: .2rem .7rem;
+    border-radius: 8px;
+    color: rgb(84, 83, 83);
+    border: 3px solid rgb(135, 135, 136);
+}
+.popup-btn:hover{
+    background-color: rgba(205,223,214,1);
+    cursor: pointer;
+}
+
+.popup-container{
+    position: relative;
+}
+.btn-close{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
